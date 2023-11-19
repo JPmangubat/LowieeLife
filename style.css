@@ -1,0 +1,106 @@
+body {
+    background-color:rgb(46, 45, 45);
+    background-size:cover;			
+}
+.nav-wrapper {
+    background-color: #111311;
+}
+nav ul li :hover{
+    transition: 2s;
+    background-color: #ffffff;
+    color: red;
+}
+.brand-logo {
+    position: relative;
+    left:40px;
+}
+h4 {
+    position: relative;
+    bottom:50px;
+}
+img {
+    margin-left: 60px;
+    position: relative;
+    margin-top: 5px;
+    right:480px;
+    width:55px;
+    height:55px;
+    border-radius:200px;
+    background-color: #101110;
+}
+li {
+    color:white;
+}
+.box {
+    background-color: #404140;
+    background-repeat: no-repeat;
+    width:1200px;
+    height:600px;
+    position: relative;
+    top:40px;
+    margin-left: 10px;
+    border: 2px solid rgb(30, 29, 29);
+}
+.am {
+    background-color: rgb(199, 193, 193);
+    margin-left: 100px;
+    width:500px;
+    height:250px;
+    position:relative;
+    right:335px;
+    top:150px;
+    border-radius:10px;
+    padding:30px;
+    border: 2px solid black;
+}
+p {
+    position:relative;
+    bottom:50px;
+    font-size: large;
+}
+.hi {
+    position:relative;
+    color: #101110;
+    bottom:40px;
+    font-size:25px;
+}
+button {
+    background-color: #404140;
+    height:3em;
+    width:9em;
+    color:white;
+    border: none;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+.button::before{
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+}
+.button:hover::before{
+    width: 9em;
+}
+.PicsArt {
+    height:400px;
+    margin-top: 50px;
+    width:500px;
+    float:right;
+    border-radius: 5%;
+    position: relative;
+    bottom:420px;
+    left:600px;
+    border: 10px;
+    border: 2px solid black;
+}
+.page-footer{
+    background-color: rgb(46, 45, 45);
+}
+
